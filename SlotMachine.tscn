@@ -1,0 +1,404 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://SlotMachinePredicted.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Lemon.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Bell.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Cherry.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Seven.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Banana.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Gem.png" type="Texture" id=7]
+[ext_resource path="res://Assets/SlotMachine.png" type="Texture" id=8]
+
+[node name="SlotMachine" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = 360.19
+margin_top = 204.023
+margin_right = 660.19
+margin_bottom = 504.023
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+margin_left = 362.338
+margin_top = 286.743
+margin_right = 662.338
+margin_bottom = 366.743
+color = Color( 1, 0.992157, 0.380392, 1 )
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+margin_left = 358.041
+margin_top = 298.56
+margin_right = 658.041
+margin_bottom = 358.56
+color = Color( 1, 0.972549, 0.733333, 1 )
+
+[node name="Slot" type="VBoxContainer" parent="."]
+editor/display_folded = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -122.0
+margin_top = -300.0
+margin_right = -42.0
+margin_bottom = 433.0
+
+[node name="Lemon2" type="TextureRect" parent="Slot"]
+margin_right = 80.0
+margin_bottom = 69.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Bell2" type="TextureRect" parent="Slot"]
+margin_top = 73.0
+margin_right = 80.0
+margin_bottom = 142.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Cherry" type="TextureRect" parent="Slot"]
+margin_top = 146.0
+margin_right = 80.0
+margin_bottom = 215.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Seven" type="TextureRect" parent="Slot"]
+margin_top = 219.0
+margin_right = 80.0
+margin_bottom = 288.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 5 )
+expand = true
+
+[node name="Banana" type="TextureRect" parent="Slot"]
+margin_top = 292.0
+margin_right = 80.0
+margin_bottom = 361.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Cherry2" type="TextureRect" parent="Slot"]
+margin_top = 365.0
+margin_right = 80.0
+margin_bottom = 434.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Lemon" type="TextureRect" parent="Slot"]
+margin_top = 438.0
+margin_right = 80.0
+margin_bottom = 507.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Bell" type="TextureRect" parent="Slot"]
+margin_top = 511.0
+margin_right = 80.0
+margin_bottom = 580.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Gem" type="TextureRect" parent="Slot"]
+margin_top = 584.0
+margin_right = 80.0
+margin_bottom = 653.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 7 )
+expand = true
+
+[node name="Banana2" type="TextureRect" parent="Slot"]
+margin_top = 657.0
+margin_right = 80.0
+margin_bottom = 733.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Slot2" type="VBoxContainer" parent="."]
+editor/display_folded = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -40.0
+margin_top = -300.0
+margin_right = 40.0
+margin_bottom = 433.0
+
+[node name="Lemon2" type="TextureRect" parent="Slot2"]
+margin_right = 80.0
+margin_bottom = 69.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Bell2" type="TextureRect" parent="Slot2"]
+margin_top = 73.0
+margin_right = 80.0
+margin_bottom = 142.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Cherry" type="TextureRect" parent="Slot2"]
+margin_top = 146.0
+margin_right = 80.0
+margin_bottom = 215.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Seven" type="TextureRect" parent="Slot2"]
+margin_top = 219.0
+margin_right = 80.0
+margin_bottom = 288.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 5 )
+expand = true
+
+[node name="Banana" type="TextureRect" parent="Slot2"]
+margin_top = 292.0
+margin_right = 80.0
+margin_bottom = 361.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Cherry2" type="TextureRect" parent="Slot2"]
+margin_top = 365.0
+margin_right = 80.0
+margin_bottom = 434.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Lemon" type="TextureRect" parent="Slot2"]
+margin_top = 438.0
+margin_right = 80.0
+margin_bottom = 507.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Bell" type="TextureRect" parent="Slot2"]
+margin_top = 511.0
+margin_right = 80.0
+margin_bottom = 580.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Gem" type="TextureRect" parent="Slot2"]
+margin_top = 584.0
+margin_right = 80.0
+margin_bottom = 653.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 7 )
+expand = true
+
+[node name="Banana2" type="TextureRect" parent="Slot2"]
+margin_top = 657.0
+margin_right = 80.0
+margin_bottom = 733.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Slot3" type="VBoxContainer" parent="."]
+editor/display_folded = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 40.0
+margin_top = -300.0
+margin_right = 120.0
+margin_bottom = 433.0
+
+[node name="Lemon2" type="TextureRect" parent="Slot3"]
+margin_right = 80.0
+margin_bottom = 69.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Bell2" type="TextureRect" parent="Slot3"]
+margin_top = 73.0
+margin_right = 80.0
+margin_bottom = 142.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Cherry" type="TextureRect" parent="Slot3"]
+margin_top = 146.0
+margin_right = 80.0
+margin_bottom = 215.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Seven" type="TextureRect" parent="Slot3"]
+margin_top = 219.0
+margin_right = 80.0
+margin_bottom = 288.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 5 )
+expand = true
+
+[node name="Banana" type="TextureRect" parent="Slot3"]
+margin_top = 292.0
+margin_right = 80.0
+margin_bottom = 361.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Cherry2" type="TextureRect" parent="Slot3"]
+margin_top = 365.0
+margin_right = 80.0
+margin_bottom = 434.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Lemon" type="TextureRect" parent="Slot3"]
+margin_top = 438.0
+margin_right = 80.0
+margin_bottom = 507.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Bell" type="TextureRect" parent="Slot3"]
+margin_top = 511.0
+margin_right = 80.0
+margin_bottom = 580.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Gem" type="TextureRect" parent="Slot3"]
+margin_top = 584.0
+margin_right = 80.0
+margin_bottom = 653.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 7 )
+expand = true
+
+[node name="Banana2" type="TextureRect" parent="Slot3"]
+margin_top = 657.0
+margin_right = 80.0
+margin_bottom = 733.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+expand = true
+
+[node name="SlotIndex" type="ColorRect" parent="."]
+visible = false
+margin_left = 380.0
+margin_top = 292.0
+margin_right = 640.0
+margin_bottom = 312.0
+color = Color( 0, 0.882353, 1, 0.294118 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -433.869
+margin_top = 14.1672
+margin_right = 1466.13
+margin_bottom = 654.167
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 8 )
+expand = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+margin_bottom = 64.0
+color = Color( 0.360784, 0.615686, 0.662745, 1 )
+
+[node name="Money" type="Label" parent="."]
+margin_left = 417.474
+margin_top = 116.539
+margin_right = 457.474
+margin_bottom = 147.539
+text = "abc"
+
+[node name="Tribute" type="Label" parent="."]
+margin_left = 603.204
+margin_top = 113.51
+margin_right = 643.204
+margin_bottom = 144.51
+text = "abc"
+
+[node name="Increase Tribute" type="Button" parent="."]
+margin_left = 554.958
+margin_top = 84.6547
+margin_right = 670.958
+margin_bottom = 104.655
+text = "Increase Tribute"
+
+[node name="Decrease Tribute" type="Button" parent="."]
+margin_left = 551.996
+margin_top = 133.046
+margin_right = 667.996
+margin_bottom = 153.046
+text = "Decrease Tribute"
+
+[node name="Roll" type="Button" parent="."]
+margin_left = 450.274
+margin_top = 478.701
+margin_right = 566.274
+margin_bottom = 533.701
+text = "Roll"
+
+[node name="Autoroll" type="CheckBox" parent="."]
+margin_left = 362.863
+margin_top = 479.987
+margin_right = 441.863
+margin_bottom = 503.987
+text = "Autoroll"
+[connection signal="pressed" from="Increase Tribute" to="." method="increase_tribute"]
+[connection signal="pressed" from="Decrease Tribute" to="." method="decrease_tribute"]
+[connection signal="pressed" from="Roll" to="." method="roll"]
+[connection signal="toggled" from="Autoroll" to="." method="_on_Autoroll_toggled"]
